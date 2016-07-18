@@ -10,5 +10,7 @@ get '/secret' do
 end
 
 get '/cat' do
-  "<img style='border: dotted 3px red' src='http://bit.ly/1eze8aE' alt='cat'/>"
+  "<div style='border: 3px dashed red'>
+    <img src='http://bit.ly/1eze8aE' alt='cat'/>
+  </div>"
 end
